@@ -77,14 +77,13 @@ a {
 
 .buttons {
     gap: 8px;
-    
 }
 
 
 /* Footer */
 
 .footer {
-    background-color: #f1efef;
+    background-color: #eee;
     position: fixed;
     display: flex;
     justify-content: space-between;
