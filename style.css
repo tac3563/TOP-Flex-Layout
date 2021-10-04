@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  color: #252525;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: .5em;
+  font-weight: bold;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+ul {
+    list-style: none;
+   
+}
+
+a {
+    text-decoration: none;
+    color: rgba(38, 38, 38, 0.5);
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+/* Nav Bar */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    height: 5vh;
+
+    
+}
+
+.left-links, .right-links {
+
+    display: flex;
+    padding: 1em;
+    gap: 10px;
+
+}
+
+
+/* Main Section */
+
+.buttons, .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    gap: 8px;
+    
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #f1efef;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+}
